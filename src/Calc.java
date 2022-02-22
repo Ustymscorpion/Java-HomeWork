@@ -7,7 +7,9 @@ class Calc {
         int firstNum = sc.nextInt();
         System.out.println("firstNum = " + firstNum);
         System.out.println(firstNum);
-        /*double secondNum = sc.nextDouble();
-        System.out.println("second num = " + secondNum);*/
+
+        System.out.println("Enter the second number: ");
+        double secondNum = sc.nextDouble();
+        System.out.println("second num = " + secondNum);
     }
 }
