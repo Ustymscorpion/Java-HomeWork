@@ -11,5 +11,7 @@ class Calc {
         System.out.println("Enter the second number: ");
         double secondNum = sc.nextDouble();
         System.out.println("second num = " + secondNum);
+
+        System.out.println("Sum =" + firstNum + secondNum);
     }
 }
